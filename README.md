@@ -1,5 +1,7 @@
 # first-aid-chatbot
 chatbot code to give first aid instructions in a concise and unambiguous manner, even in remote locations
+
+
 ABSTRACT:-
 In the event of injury or sudden illness, failure to provide first aid could result in a casualty's death. The employer should ensure that an employee who is injured or taken ill at work receives immediate attention. But not everybody possesses the knowledge to do proper first-aid, and this will lead to prolonged discomfort, and this would be the best case scenario,worst being death.
 

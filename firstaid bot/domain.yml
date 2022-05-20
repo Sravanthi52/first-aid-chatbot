@@ -1,0 +1,312 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - covid_intro
+  - covid_spread
+  - community_spread
+  - community_levels
+  - covid_prevention
+  - covid_symptoms
+  - snake_bite
+  - fracture_symptoms
+  - fracture_first_aid
+  - blisters
+  - knee_ankle_injuries
+  - burns
+  - control_bleeding
+  - wounds_infections
+  - first_aid_kit
+  - wilderness_kit
+  - antiseptics
+
+responses:
+  utter_greet:
+  - text: "Hey! I am your first aid chatbot assistant.Name the ailment you need first aid 
+           instructions for.
+           
+           P.S.: I can also answer covid FAQs"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_fracture_symptoms:
+    - text: "  if you are experiencing the following symptoms(varying from mild to severe),it is a fracture:     
+                    - grinding noise as injury happened
+                    - swelling
+                    - bruising
+                    - deformation around injury
+                    - broken bone
+                    - intense pain around injured part
+                    - numbness
+                    - inability to move a limb"
+
+  utter_fracture_first_aid:
+    - text: "Don't move the person except if necessary to avoid further injury. 
+             Take these actions immediately while waiting for medical help:
+
+              >Stop any bleeding. Apply pressure to the wound with a sterile bandage, 
+               a clean cloth or a clean piece of clothing.
+              >Immobilize the injured area. Don't try to realign the bone or push a bone
+               that's sticking out back in. If you've been trained in how to splint and professional 
+               help isn't readily available, apply a splint to the area above and below the fracture sites.
+               Padding the splints can help reduce discomfort.
+              >Apply ice packs to limit swelling and help relieve pain. Don't apply ice
+               directly to the skin. Wrap the ice in a towel, piece of cloth or some other material.
+              >Treat for shock. If the person feels faint or is breathing in short, rapid breaths, 
+               lay the person down with the head slightly lower than the trunk and, if possible, elevate 
+               the legs.
+               
+            Also call for emergency help if:
+                
+                >The person is unresponsive, isn't breathing or isn't moving. Begin CPR if 
+                 there's no breathing or heartbeat.
+                >There is heavy bleeding.
+                >Even gentle pressure or movement causes pain.
+                >The limb or joint appears deformed.
+                >The bone has pierced the skin.
+                >The extremity of the injured arm or leg, such as a toe or finger, is numb 
+                 or bluish at the tip.
+                >You suspect a bone is broken in the neck, head or back."
+
+
+
+  utter_snake_bite:
+    - text: "If possible, take these steps while waiting for medical help:
+
+             > Move beyond the snake's striking distance.
+             > Remain still and calm to help slow the spread of venom.
+             > Remove jewelry and tight clothing before you start to swell.
+             > Position yourself, if possible, so that the bite is at or below the level of your heart.
+             > Clean the wound with soap and water. Cover it with a clean, dry dressing.
+              
+              Caution:
+              
+              >Don't use a tourniquet or apply ice.
+              >Don't cut the wound or attempt to remove the venom.
+              >Don't drink caffeine or alcohol, which could speed your body's absorption of venom.
+              >Don't try to capture the snake. Try to remember its color and shape so that you can 
+               describe it, which will help in your treatment. If you have a smartphone with you and 
+               it won't delay your getting help, take a picture of the snake from a safe distance to
+               help with identification."
+
+  utter_covid_intro:
+  - text: "COVID-19 is a disease caused by a virus called SARS-CoV-2. Most people with
+           COVID-19 have mild symptoms, but some people become severely ill. Older adults
+           and people who have certain underlying medical conditions are more likely to get 
+           severely ill. Post-COVID conditions are a wide range of health problems people can 
+           experience four or more weeks after first getting COVID-19.Even those who do not
+           become severely ill from COVID-19 may experience post-COVID conditions."
+
+  utter_covid_spread:
+    - text: "COVID-19 is spread in three main ways:
+
+             >Breathing in air when close to an infected person who is exhaling small
+            droplets and particles that contain the virus.
+             >Having these small droplets and particles that contain virus land on the eyes,
+            nose, or mouth, especially through splashes and sprays like a cough or sneeze.
+             >Touching eyes, nose, or mouth with hands that have the virus on them."
+
+  utter_community_spread:
+  - text: "Community spread means people have been infected with the virus 
+           in an area, including some who are not sure how or where they became 
+           infected. Each health department determines community spread differently 
+           based on local conditions. For information on community spread in 
+           your area, please visit your local health department’s website."
+
+  utter_community_levels:
+   - text: "COVID-19 Community Levels are a tool to help communities decide 
+            what prevention steps to take based on the latest data. Levels can 
+            be low, medium, or high and are determined by looking at the percent 
+            of hospital beds being used by patients with COVID-19, the rate of new 
+            hospital admissions in the population, and the rate of new COVID-19 cases 
+            in the community. People can take different steps depending on the 
+            COVID-19 Community Level in their area."
+
+  utter_covid_symptoms:
+    - text: "People with COVID-19 have reported a wide range of issues from mild 
+             symptoms to severe illness. Symptoms may appear 2-14 days after exposure
+             to the virus. If you have fever, cough, or other symptoms, you might have 
+             COVID-19."
+
+  utter_prevention:
+    - text: "hear are some ways to prevent getting infected:
+                  >Get Vaccinated and stay up to date on your COVID-19 vaccines
+                  >wear a mask
+                  >Find community levels and prevention steps by county
+                  >Stay 6 feet away from others
+                  >Avoid poorly ventilated spaces and crowds
+                  >Test to prevent spread to others
+                  >Wash your hands often
+                  >Cover coughs and sneezes
+                  >Clean and disinfect
+                  >Monitor your health daily
+                  >Follow recommendations for quarantine
+                  >Follow recommendations for isolation
+                  >Take precautions when you travel"
+
+  utter_control_bleeding:
+    - text: "Most forms of bleeding can be stopped with a combination of direct pressure 
+             onto the wound and elevation of the wound above the heart. Always make sure 
+             you put on gloves before touching someone else’s blood, I carry a few pairs of 
+             these in my first aid kit.
+
+             Hand the patient a piece of clean gauze and tell them to put pressure on their
+             own wound as you put your gloves on. If the gauze is getting saturated, add more 
+             gauze on top but do not remove any existing gauze that’s already in the wound.
+
+             If the situation requires your hands to be free, or you’re having trouble keeping 
+             pressure on the wound, you can make a pressure bandage. Place gauze over the wound 
+             and wrap it tightly with something like an ace wrap or bandanna. Your goal is not to
+             make a tourniquet, you should be able to slide two fingers under the wrap and the 
+             patient should have no tingles or loss of feeling in the extremities."
+
+  utter_wounds_infections:
+    - text: "apply antiseptic or sanitiser(if no other option.try and dress the wound with a clean 
+             cloth.Do not wash with water unless you are sure that water is pathogen free.
+             
+             If a wound is going to get infected, it will usually show up in the first 24-48 hours.
+             You should stop the trip and evacuate any patient where you can’t control the bleeding 
+             or there are persistent signs of a bad infection."
+
+  utter_burns:
+    - text: " The very first step for treating any burn is to stop the burning process. 
+              Remove whatever the source of heat is and immediately cool the affected area with cold, 
+              clean water. Depending on the thickness of the burn, it may take several minutes of soaking 
+              in cold water before the burning process has stopped.
+          
+              Once the burned area has cooled off, you may want to scrub the area with clean water and a 
+              bit of mild antibacterial soap, if it’s available. The goal is to prevent infection if the 
+              burn goes deep into the skin.
+              
+              Next you should cover the burned area with antibiotic ointment and clean gauze or clothing. 
+              This will help protect the burn site, and also help reduce the patient’s pain. Feel free to 
+              offer the patient ibuprofen as well, as there will usually be substantial pain.
+              
+              For burns in extremities, keep the burned area elevated to reduce swelling. For more 
+              long-term care, it’s important to keep the patient warm and well-hydrated since the major 
+              risks to life are fluid loss (see dehydration and shock, below).
+              
+              Evacuate any burn patient if the burn:
+              
+                  >exposes deep layers of skin or bone
+                  >is circumferential, going completely around a limb
+                  >is on sensitive areas like the face, groin, armpit, hands or feet
+                  >covers a significant part of a patient’s arm, leg or torso"
+
+  utter_knee_ankle_injury:
+    - text: "Whether they’re chronic injuries that flare up from over-use or sudden 
+             injuries from a bad step on steep or uneven terrain, it’s important to stop 
+             and address soft tissue injuries. Trying to “tough it out” can lead to 
+             permanent, lifelong injuries that require ongoing physical therapy."
+
+  utter_blisters:
+    - text: " To treat blisters, the best option is to carefully and slowly drain it, 
+              and then treat it like a minor wound. This will relieve the pressure and allow you 
+              to continue on your way.
+          
+              Begin by washing the area around the blister thoroughly with water and then an 
+              alcohol pad. Sterilize a sharp point with either alcohol or by holding it over a flame.
+              
+              To reduce the risk of cutting a jumpy, antsy patient, hold the sharp point so that it’s 
+              nearly parallel with the skin of their foot, and slide it up into the bottom of the blister’s 
+              roof. The skin of the blister should be dead, so the patient should only feel the tug of your 
+              point lancing the outside of the blister, not any sharp pain.
+              
+              Once you’ve lanced a hole in the blister, leave the rest of the roof intact to protect the 
+              inner layers of skin. Give the blister at least a few minutes to drain, applying light pressure 
+              to help squeeze out the fluid. Then cover the area with antibiotic ointment to prevent your lanced
+              hole from getting infected."
+
+  utter_antiseptics:
+  - text: "some natural antiseptics are:
+            Allspice
+            Basil
+            Cayenne
+            Chili peppers
+            Cinnamon
+            Chili peppers
+            Mustard seed
+            Fennel
+            Turmeric
+            Neem(Azadirachta indica)
+            Lemon
+            Honey
+            Manuka honey
+            Pineapple
+            Various essential oils
+            Moringa oleifera
+            Garlic  "
+
+  utter_wilderness_kit:
+  - text: " Items to have in wilderness survival kit are:
+            1 Emergency Disaster Lighting
+            2 Survival Knife
+            3 Survival Rope / Cord
+            4 Emergency First Aid Kit
+            5 Disaster Proof Fire starter
+            6 Emergency Supply Map / Navigation
+            7 Emergency Water
+            8 Emergency Survival Food
+            9 Emergency Safety Clothes
+            10 Emergency first-aid box "
+
+  utter_first_aid_kit:
+  - text: "The American Red Cross suggests that a first-aid kit include the following items:
+              A first-aid guide
+              2 absorbent compress dressings (5 x 9 inches)
+              25 adhesive bandages (assorted sizes)
+              1 adhesive cloth tape (10 yards x 1 inch)
+              5 antibiotic ointment packets
+              5 antiseptic wipe packets
+              2 packets of aspirin (81 mg each)
+              1 emergency blanket
+              1 breathing barrier (with one-way valve)
+              1 instant cold compress
+              2 pair of nonlatex gloves (size: large)
+              2 hydrocortisone ointment packets
+              1 3-inch gauze roll (roller) bandage
+              1 roller bandage (4 inches wide)
+              5 3 x 3-inch sterile gauze pads
+              5 sterile gauze pads (4 x 4 inches)
+              A thermometer (non-mercury/non-glass)
+              2 triangular bandages
+              Tweezers
+            
+            Customize your kit
+            Think about the healthcare needs of your family when putting together a first-aid kit. 
+            For example:
+            
+            >If you have a family member with a severe allergy, include antihistamine medicine and 
+            an epinephrine injector.
+            >If you have elderly family members with fragile skin, including a roll of paper tape 
+            can be useful for protecting delicate skin.
+            >If you or a family member lives with diabetes, include a juice box, glucose tablets 
+            and gels, and an emergency glucagon injection kit.
+            >Chewable, baby aspirin might help someone who has coronary artery disease, provided 
+            the person is not allergic to aspirin."
+
+
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

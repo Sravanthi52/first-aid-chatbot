@@ -1,0 +1,200 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: covid_intro
+  examples: |
+    - what is covid 19?
+    - what is corona virus?
+    - how dangerous is covid 19?
+    - tell me about covid 19?
+    - introduce corona virus
+
+- intent: covid_spread
+  examples: |
+    - how does covid spread?
+    - how does corona spread?
+    - spread of covid
+    - spread
+
+- intent: community_spread
+  examples: |
+    - community spread
+
+- intent: community_levels
+  examples: |
+    - what are covid 19 community levels?
+    - community levels
+
+- intent: covid_prevention
+  examples: |
+      - prevent covid
+      - covid prevention
+      - corona guidelines
+      - guidelines
+      - methods of prevention
+
+- intent: covid_symptoms
+  examples: |
+    - symptoms of covid
+    - symptoms of corona
+
+- intent: snake_bite
+  examples: |
+    - snake bite
+    - snake venom
+    - venom
+
+- intent: fracture_symptoms
+  examples: |
+    - fracture symptoms
+    - is it a fracture?
+    - do i have a fracture?
+
+- intent: fracture_first_aid
+  examples: |
+    - fracture first aid
+    - fracture
+    - i have a fracture
+    - grinding noise as injury happened
+    - deformation around injury
+    - broken bone
+    - intense pain around injured part
+    - numbness
+    - inability to move a limb
+
+- intent: wounds_infections
+  examples: |
+    - wounds
+    - infections
+
+- intent: control_bleeding
+  examples: |
+    - severe bleeding
+    - full bleeding
+    - control bleeding
+
+
+- intent: burns
+  examples: |
+    - burns
+    - burn
+    
+- intent: knee_ankle_injuries
+  examples: |
+    - knee injury
+    - ankle injury
+    - knee and ankle injury
+
+- intent: blisters
+  examples: |
+    - blisters
+
+- intent: antiseptics
+  examples: |
+    - natural antiseptics 
+    - antiseptics
+
+- intent: wilderness_kit
+  examples: |
+    - wilderness
+    - survival
+    - essentials for camping
+    - wilderness kit
+
+- intent: first_aid_kit
+  examples: |
+    - items in first aid kit
+    - essentials for first aid kit
+
+
+    
+ 

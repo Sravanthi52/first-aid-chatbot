@@ -1,0 +1,114 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: covid intro
+  steps:
+  - intent: covid_intro
+  - action: utter_covid_intro
+
+- story: covid spread
+  steps:
+  - intent: covid_spread
+  - action: utter_covid_spread
+
+- story: community levels
+  steps:
+  - intent: community_levels
+  - action: utter_community_levels
+
+- story: community spread
+  steps:
+  - intent: community_spread
+  - action: utter_community_spread
+
+- story: snake bite
+  steps:
+  - intent: snake_bite
+  - action: utter_snake_bite
+
+- story: fracture symptoms
+  steps:
+  - intent: fracture_symptoms
+  - action: utter_fracture_symptoms
+  - intent: fracture_first_aid
+  - action: utter_fracture_first_aid
+
+- story: covid prevention
+  steps:
+  - intent: covid_prevention
+  - action: utter_prevention
+
+- story: covid symptoms
+  steps:
+  - intent: covid_symptoms
+  - action: utter_covid_symptoms
+
+- story: burns
+  steps:
+  - intent: burns
+  - action: utter_burns
+
+- story: blisters
+  steps:
+  - intent: blisters
+  - action: utter_blisters
+
+- story: control bleeding
+  steps:
+  - intent: control_bleeding
+  - action: utter_control_bleeding
+
+- story: wounds and infections
+  steps:
+  - intent: wounds_infections
+  - action: utter_wounds_infections
+
+- story: knee and ankle injuries
+  steps:
+  - intent: knee_ankle_injuries
+  - action: utter_knee_ankle_injury
+
+
+- story: natural antiseptics
+  steps:
+  - intent: antiseptics
+  - action: utter_antiseptics
+
+- story: wilderness kit
+  steps:
+  - intent: wilderness_kit
+  - action: utter_wilderness_kit
+
+- story: first aid kit
+  steps:
+  - intent: first_aid_kit
+  - action: utter_first_aid_kit
+

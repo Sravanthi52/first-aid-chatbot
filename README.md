@@ -16,3 +16,5 @@ Rasa framework
 Pycharm
 Anaconda environment
 Visual studio
+
+Installations related instructions from https://medium.com/analytics-vidhya/installing-rasa-in-windows-10-bf5a34fa540c
